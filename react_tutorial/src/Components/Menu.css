@@ -1,0 +1,83 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.btnContainer{
+    margin-top: 30px;
+
+}
+.button{
+    padding: 7px 20px ;
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: #01a3a4;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.button:hover{
+    transition: .4s;
+    background: transparent;
+    border: 1px solid #01a3a4;
+}
+.BreakFast{
+    background-color: #1e90ff;
+}
+.Lunch{
+    background: #f6b93b;
+}
+.Dinner{
+    background: #67e6dc;
+}
+.menuContainer{
+    width: 100%;
+    padding: 0px 100px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    grid-gap: 10px;
+}
+.menu{
+    width: 300px;
+    
+    border: 1px solid black;
+    position: relative;
+}
+.menu img{
+    width: 150px;
+    height: 100px;
+}
+.list{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.space{
+    display: flex;
+}
+.dishName{
+    margin-left: 20px;
+}
+.price{
+    margin-right: 20px;
+}
+
+.absolute{
+    width: 150px;
+   position: absolute;
+   right: 0;
+   top: 30px;
+   left: 140px;
+   font-size: 13px;
+   
+}
+.paragraph{
+    margin-left: 10px;
+}

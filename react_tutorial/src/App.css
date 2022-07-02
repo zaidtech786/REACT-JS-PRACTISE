@@ -1,0 +1,32 @@
+/* *{ */
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.input{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 70px;
+}
+.incBtn{
+  padding: 10px 30px;
+  background-color: rgb(133, 216, 212);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.decBtn{
+  padding: 10px 30px;
+  background-color: rgb(133, 216, 212);
+  margin: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
